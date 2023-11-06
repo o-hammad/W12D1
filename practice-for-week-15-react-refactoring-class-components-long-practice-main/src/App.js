@@ -28,6 +28,7 @@ export const App = (props) => {
 
   return (
     <div className="widgets">
+      debugger
       <Folder folders={folders} />
       <Weather />
       <ClockToggle toggleClock={toggleClock}/>
